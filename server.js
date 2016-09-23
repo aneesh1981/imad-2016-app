@@ -13,7 +13,7 @@ app.get('/ui/article-one',function(req,res) {
   res.sendFile("request will be served1");
 });
 
-app.get('/ui/article-2',function(res,req){
+app.get('/ui/article-two',function(req,res){
     res.sendFile("requested will be served 2");
 });
 
