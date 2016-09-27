@@ -5,7 +5,7 @@ console.log(element);
 // Moving madi
 
 var move = document.getElementById('madi');
-
+var marginLeft=0;
 var moveRight = function()
 {
 var marginLeft=marginLeft+10;
