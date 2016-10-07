@@ -20,7 +20,7 @@ button.onclick = function(){
     
     //counter=counter+1;
    // console.log(counter);
-   request.open('GET','http://aneesh1981.imad.hasura.io/counter',true);
+   request.open('GET','http://aneesh1981.imad.hasura-app.io/counter',true);
    request.send(null);
    
 };
