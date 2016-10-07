@@ -1,5 +1,5 @@
 var button  = document.getElementById('counter') ;
-var counter=0;
+//var counter=0;
 
 button.onclick = function(){
     //makerequest
@@ -7,7 +7,7 @@ button.onclick = function(){
     
     //capture request
     request.onreadystatechange = function(){
-        if(request.readyState===XMLHttpRequest.done)
+        if(request.readyState===XMLHttpRequest.Done)
         {//some action
             if (request.status===200){
                 var counter = request.responseText;
