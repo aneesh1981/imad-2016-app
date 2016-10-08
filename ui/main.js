@@ -30,7 +30,11 @@ var name = nameInput.value;
 var submit = document.getElemenyById('submi_btn');
 submit.onClick= function()
 {
-    
+    var name =[name1,name2,name3];
   console.log(name)  ;
-    
+    var list = '';
+    for(var i =0;i<name.length;i++)
+    {
+        list+='<li>'+ name[i] +'</li>';
+    }
 };
