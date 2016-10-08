@@ -31,6 +31,6 @@ var submit = document.getElemenyById('submi_btn');
 submit.onClick= function()
 {
     
-    
+  console.log(name)  ;
     
 };
