@@ -24,3 +24,13 @@ button.onclick = function(){
    request.send(null);
    
 };
+
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElemenyById('submi-btn');
+submit.onClick= function()
+{
+    
+    
+    
+};
